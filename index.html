@@ -482,7 +482,7 @@
       GPIO_ANALOG_Y_INDEX=2,
       pico8_buttons = [0, 0, 0, 0, 0, 0, 0, 0], // <= the first element in this array will be updated by the touch-buttons
       pico8_gpio = new Array(128),              // <= used to let pico8-cart change buttonset
-      changeButtonset;                          // usage: changeButtonset(2) to activates .buttonset-2
+      changeButtonset(2);                          // usage: changeButtonset(2) to activates .buttonset-2
 
     (function(){ // locally scoped
       var
